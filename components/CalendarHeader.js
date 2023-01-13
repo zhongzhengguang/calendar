@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React, { useContext } from "react";
-import logo from "../public/logo.png";
 import {
   AiOutlineLeft,
   AiOutlineRight,

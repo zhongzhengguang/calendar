@@ -3,7 +3,6 @@ import GlobalContext from "../context/GlobalContext";
 
 export default function Labels() {
   const { labels, updateLabel } = useContext(GlobalContext);
-
   return (
     <React.Fragment>
       <p className="text-gray-500 text-2xl font-bold mt-10">標籤</p>

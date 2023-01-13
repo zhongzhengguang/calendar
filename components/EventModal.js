@@ -5,14 +5,8 @@ import GlobalContext from "../context/GlobalContext";
 import { BsBookmark } from "react-icons/bs";
 let labelsClasses = ["gray", "green", "blue", "purple"];
 function EventModal() {
-  const {
-    daySelected,
-    setShowEventModal,
-    savedEvents,
-    dispatchCalEvent,
-    selectedEvent,
-    setSelectedEvent,
-  } = useContext(GlobalContext);
+  const { daySelected, setShowEventModal, dispatchCalEvent, selectedEvent } =
+    useContext(GlobalContext);
   const [title, setTitle] = useState(selectedEvent ? selectedEvent.title : "");
   const [description, setDescription] = useState(
     selectedEvent ? selectedEvent.description : ""

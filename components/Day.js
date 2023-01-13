@@ -7,9 +7,7 @@ export default function Day({ day, rowIdx }) {
     setShowEventModal,
     setDaySelected,
     daySelected,
-    savedEvents,
     setSelectedEvent,
-    selectedEvent,
     filterEvents,
   } = useContext(GlobalContext);
 
